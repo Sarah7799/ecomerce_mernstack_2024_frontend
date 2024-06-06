@@ -5,8 +5,6 @@ import toast from "react-hot-toast";
 import SearchInput from "../Form/SearchInput";
 import useCategory from "../../hooks/useCategory";
 import { useCart } from "../../context/cart";
-import { Badge } from "antd";
-import { FiShoppingCart } from "react-icons/fi";
 import "../../styles/HeaderStyles.css";
 const Header = () => {
   const [auth, setAuth] = useAuth();
